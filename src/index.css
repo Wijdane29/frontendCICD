@@ -43,3 +43,13 @@
   font-family: "Comfortaa", sans-serif;
 
 }
+.tagline{
+  letter-spacing: 2px;
+  font-family: "Comfortaa", sans-serif;
+  text-align: center;
+  margin: 40px;
+  align-items: center;
+}
+.material-symbols-outlined{
+  margin: 5px;
+}

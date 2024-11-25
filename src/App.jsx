@@ -3,13 +3,22 @@ import goldenBook from './assets/golden-book.jpeg';
 import itEndsWithUs from './assets/itendswithus.jpeg';
 import whoMovedMyCheese from './assets/whomovedmycheese.jpeg';
 import freedomInCave from './assets/freedomincave.jpeg';
-import Header from './Header/Header';
+import Header from './HomePage/Header';
+import Slider from './HomePage/Slider';
+import Footer from './HomePage/Footer';
 
 
 function App() {
   return(
     <>
       <Header/>
+      <div className='tagline'>
+        <span class="material-symbols-outlined">
+          book
+        </span>
+        Unlock the power of reading by exploring the <b>e-book</b> universe.
+      </div>
+      <Slider/>
 
       {/* A specified number of books will appear in a random way */}
       <div className='main-content'>
@@ -19,6 +28,7 @@ function App() {
         <Card name="Who Moved My Cheese" src={whoMovedMyCheese} desc="Who Moved My Cheese is a beautiful guideline for us to learn how to adapt.."/>
         <Card name="Freedom In Cave" src={freedomInCave} desc="Freedom in Cave to learn that you are capable of seeing the fantasy as a reality."/>
       </div>
+      <Footer/>
     </>
   );
 }

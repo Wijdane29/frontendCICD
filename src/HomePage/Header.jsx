@@ -1,5 +1,5 @@
 
-import '../css/header.css';
+import '../css/homepage.css';
 import Nav from "./Nav";
 import Search from "./Search";
 function Header(){
