@@ -6,11 +6,20 @@
   padding: 10px;
   margin: 20px;
   max-width: 250px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 500px;
   width: 300px;
   overflow: hidden;
+  flex: 1 1 calc(33.33% - 20px);
 } 
+.main-content{
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  flex-wrap: wrap;
+}
 .card-image{
   width: 150px;
 
@@ -24,4 +33,13 @@
   font-family: Arial, sans-seif;
 }
 
+.card-details{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 23px;
+  cursor: pointer;
+  font-family: "Comfortaa", sans-serif;
 
+}

@@ -8,6 +8,10 @@ function Card(props){
             <p className='card-text'>{props.desc}</p>
             <p className='card-text'>Is it best seller : {props.isBestSeller ? "Yes" : "No"}</p>
 
+            <button className="card-details">
+                View Details
+            </button>
+
         </div>
     );
 }
