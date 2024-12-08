@@ -1,12 +1,12 @@
-.main-header{
+/* .main-header{
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     background-color: #000000;
-}
+} */
 /* NAV */
-.main-header .nav-bar{
+/* .main-header .nav-bar{
     flex: 1;
 }
 .main-header .search-container{
@@ -34,10 +34,10 @@
   .nav-bar ul > li:hover{
     color: black;
     background-color: white;
-  }
+  } */
 
   /* SEARCH */
-  .search-container {
+  /* .search-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@
 
 .search-button:hover {
     background-color: #333;
-}
+} */
 
 
 /* SLIDER */
@@ -87,10 +87,9 @@
 .slider {
     width: 800px;
     height: 500px;
-    /* Adjusted height */
-    border-radius: 10px;
     overflow: hidden;
     position: relative;
+    
 }
 
 .slides {

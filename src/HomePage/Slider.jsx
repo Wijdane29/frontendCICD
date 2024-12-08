@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import '../css/homepage.css';
+import './Slider.css';
+import { NavLink, Link, useLocation } from 'react-router-dom';
+
 
 
 export default function Slider() {
@@ -39,6 +41,16 @@ export default function Slider() {
                         <img src="images/7.jpeg" alt="Slide 7" />
                     </div>
                 </div>
+
+                <div className="slider-content">
+                    <h2 className="slider-title">Dive Into a World of Books</h2>
+                    <p className="slider-description">Explore New Worlds, Learn, and Grow</p>
+                    <button className="shop-now-btn">
+                        <NavLink to="/Books" className="NavLink">Shop Now</NavLink>  
+                    </button>
+                </div>
+
+
                 <div className="navigation-manual">
                     {Array.from({ length: 7 }).map((_, index) => (
                         <label
