@@ -18,7 +18,36 @@ import Book7 from '../assets/7.jpeg';
 import Book8 from '../assets/8.jpeg';
 import Book9 from '../assets/9.jpeg';
 import Book10 from '../assets/10.jpeg';
-import Book11 from '../assets/The Lives of Lee Miller.jpg';
+import Book11 from '../assets/10.jpeg';
+import Book12 from '../assets/10.jpeg';
+import Book13 from '../assets/10.jpeg';
+import Book14 from '../assets/10.jpeg';
+import Book15 from '../assets/10.jpeg';
+import Book16 from '../assets/10.jpeg';
+import Book17 from '../assets/10.jpeg';
+import Book18 from '../assets/10.jpeg';
+import Book19 from '../assets/10.jpeg';
+import Book21 from '../assets/10.jpeg';
+import Book22 from '../assets/10.jpeg';
+import Book23 from '../assets/10.jpeg';
+import Book24 from '../assets/10.jpeg';
+import Book25 from '../assets/10.jpeg';
+import Book26 from '../assets/10.jpeg';
+import Book27 from '../assets/10.jpeg';
+import Book28 from '../assets/10.jpeg';
+import Book29 from '../assets/10.jpeg';
+import Book30 from '../assets/10.jpeg';
+import Book31 from '../assets/10.jpeg';
+import Book32 from '../assets/10.jpeg';
+import Book33 from '../assets/10.jpeg';
+import Book34 from '../assets/10.jpeg';
+import Book35 from '../assets/10.jpeg';
+import Book36 from '../assets/10.jpeg';
+import Book37 from '../assets/10.jpeg';
+import Book38 from '../assets/10.jpeg';
+import Book39 from '../assets/10.jpeg';
+import Book40 from '../assets/10.jpeg';
+
 import TheLivesofLeeMillerPdf from '../../public/The Lives of Lee Miller.pdf';
 
 // Map of book assets
@@ -34,6 +63,35 @@ const bookAssets = {
         '8.jpeg': Book8,
         '9.jpeg': Book9,
         '10.jpeg': Book10,
+        '11.jpeg': Book11,
+        '12.jpeg': Book12,
+        '13.jpeg': Book13,
+        '14.jpeg': Book14,
+        '15.jpeg': Book15,
+        '16.jpeg': Book16,
+        '17.jpeg': Book17,
+        '18.jpeg': Book18,
+        '19.jpeg': Book19,
+        '21.jpeg': Book21,
+        '22.jpeg': Book22,
+        '23.jpeg': Book23,
+        '24.jpeg': Book24,
+        '25.jpeg': Book25,
+        '26.jpeg': Book26,
+        '27.jpeg': Book27,
+        '28.jpeg': Book28,
+        '29.jpeg': Book29,
+        '30.jpeg': Book30,
+        '31.jpeg': Book31,
+        '32.jpeg': Book32,
+        '33.jpeg': Book33,
+        '34.jpeg': Book34,
+        '35.jpeg': Book35,
+        '36.jpeg': Book36,
+        '37.jpeg': Book37,
+        '38.jpeg': Book38,
+        '39.jpeg': Book39,
+        '40.jpeg': Book40,
         'The Lives of Lee Miller.jpg': Book11,
 
         
