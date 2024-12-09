@@ -75,6 +75,9 @@
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 10px;
+    color: white;
+    
+
 }
 
 .slider-description {
@@ -85,13 +88,15 @@
 .shop-now-btn {
     padding: 12px 30px;
     font-weight: bold;
-    background-color: #697565;
+    /* background-color: #697565; */
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;
     width: 250px;
     height: 60px;
+    /* text-align: center; */
+    justify-content: center;
 }
 
 .shop-now-btn:hover {
