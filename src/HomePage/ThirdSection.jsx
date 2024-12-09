@@ -1,9 +1,11 @@
 
 import React from "react";
-import Img1 from "../assets/itendswithus.jpeg";
-import Img2 from "../assets/SOUL.jfif";
+import Img1 from "../assets/home5.jpg";
+import Img2 from "../assets/home1.jpg";
 import Img3 from "../assets/THe_dark_Side.jpg";
-import Img4 from "../assets/itendswithus.jpeg";
+import Img4 from "../assets/home2.jpg";
+import Img5 from "../assets/home3.jpg";
+import Img6 from "../assets/home4.jpg";
 import { FaStar } from "react-icons/fa6";
 import "./ThirdSection.css";
 
@@ -11,23 +13,23 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Mystery Thriller",
+    title: "Mine for a Moment",
     rating: 5.0,
-    author: "John Doe",
+    author: " Catharina Maura",
     aosDelay: "0",
   },
   {
     id: 2,
-    img: Img2,
-    title: "Sci-Fi Adventure",
+    img: Img3,
+    title: "The dark side",
     rating: 4.5,
     author: "John Doe",
     aosDelay: "200",
   },
   {
     id: 3,
-    img: Img3,
-    title: "Romantic Drama",
+    img: Img2,
+    title: "Leave me behind",
     rating: 4.7,
     author: "John Doe",
     aosDelay: "400",
@@ -35,15 +37,23 @@ const ProductsData = [
   {
     id: 4,
     img: Img4,
-    title: "Self-Help Guide",
+    title: "The conjurer's wife",
     rating: 4.4,
     author: "John Doe",
     aosDelay: "600",
   },
   {
     id: 5,
-    img: Img2,
-    title: "Historical Fiction",
+    img: Img6,
+    title: "Secrets of greatness",
+    rating: 4.5,
+    author: "John Doe",
+    aosDelay: "800",
+  },
+  {
+    id: 6,
+    img: Img5,
+    title: "Angel of death",
     rating: 4.5,
     author: "John Doe",
     aosDelay: "800",

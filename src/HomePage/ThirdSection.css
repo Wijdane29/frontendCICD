@@ -10,7 +10,7 @@
   }
   
   .subtitle2 {
-    color: #697565;
+    color: #000;
     font-size: 1rem;
   }
   
@@ -18,10 +18,11 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-top: 0rem ;
+    color: #bb7564;
   }
   
   .description2 {
-    color: #697565;
+    color: #000;
     font-size: 1rem;
     margin-top: -1.5rem;
   }
@@ -94,25 +95,27 @@
   .view-all-button2 {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    /* margin-top: 1rem; */
   }
   
   .order-button2 {
-    background-color: #697565;
+    background-color: #bb7564;
     color: white;
-    padding: 0.5rem 2rem;
+    justify-content: center;
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     border-color: transparent;
     font-size: 1.2rem;
-    width: 250px;
-    height: 40px;
+    width: 270px;
+    height: 50px;
+    font-weight: 600;
   }
   
   .order-button2:hover {
-    background-color: #3C3D37;
-    width: 260px;
-    height: 42px;
+    background-color: #d4a599;
+    width: 280px;
+    height: 55px;
+    color: white;
   }
   
