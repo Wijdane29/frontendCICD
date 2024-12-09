@@ -11,6 +11,7 @@
   min-height: 100vh;
   padding: 50px 20px;
   color: #4e342e;
+  
 }
 
 .about-wrapper {
@@ -22,6 +23,8 @@
   text-align: center;
   overflow: hidden; /* Prevents content from overflowing */
   background: none; /* No background here since the image is in ::before */
+  z-index: 0;
+
 }
 
 /* Pseudo-element for the background image */
@@ -34,7 +37,7 @@
   bottom: 0;
   background: url("../assets/background4.jpeg") center/cover no-repeat;
   opacity: 0.2; /* Set image opacity to 20% */
-  z-index: -1; /* Send image behind the text */
+  z-index: -1 ; /* Send image behind the text */
   filter: brightness(100%); /* Ensure brightness is unaffected */
   border-radius: 10px; /* Match the container’s border radius */
 }
