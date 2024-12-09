@@ -67,7 +67,7 @@
   .delete-button {
     background-color: transparent;
     color: white;
-    /* padding: 8px; */
+    padding-top: -8px;
     border: none;
     cursor: pointer;
   }
