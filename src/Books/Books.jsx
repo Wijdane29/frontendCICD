@@ -18,6 +18,7 @@ import Book7 from '../assets/7.jpeg';
 import Book8 from '../assets/8.jpeg';
 import Book9 from '../assets/9.jpeg';
 import Book10 from '../assets/10.jpeg';
+import Book11 from '../assets/The Lives of Lee Miller.jpg';
 import TheLivesofLeeMillerPdf from '../../public/The Lives of Lee Miller.pdf';
 
 // Map of book assets
@@ -33,6 +34,7 @@ const bookAssets = {
         '8.jpeg': Book8,
         '9.jpeg': Book9,
         '10.jpeg': Book10,
+        'The Lives of Lee Miller.jpg': Book11,
 
         
     },

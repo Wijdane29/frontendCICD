@@ -85,5 +85,6 @@
 }
 
 .card-details:hover {
-    background-color: #3C3D37; 
+    background-color: #bb7564;
+    color: #fff;  
 }
