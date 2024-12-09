@@ -10,9 +10,15 @@
   min-height: 100vh;
   background: url(../assets/background.jpeg) center/cover no-repeat;
 }
-button{
+.login-btn{
   justify-content: center;
+  background-color: yellow ;
+  font-size: 1.2rem !important;
 }
+.login-btn:hover{
+  background-color: #bb7564 !important;
+}
+
 .wrapper {
   width: 100%;
   max-width: 400px;

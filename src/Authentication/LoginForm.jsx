@@ -74,7 +74,7 @@ const LoginForm = () => {
             </label> */}
             <a href="#">Forgot password?</a>
           </div>
-          <button type="submit">Login</button>
+          <button type="submit" className='login-btn'>Login</button>
           <div className="register-link">
             <p>
               Don't have an account? <NavLink to="/RegisterForm"> Register </NavLink>

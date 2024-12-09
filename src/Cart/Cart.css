@@ -70,9 +70,7 @@
     padding: 8px;
     border: none;
     cursor: pointer;
-    background-color: red;
-    justify-content: center;
-    align-items: center;
+    margin-top: 0px;
   }
   .delete-button img{
     width: 20px;
