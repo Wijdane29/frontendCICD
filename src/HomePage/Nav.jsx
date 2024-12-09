@@ -4,6 +4,7 @@ import Wishlist from '../Common/Wishlist'; // Placeholder for Wishlist component
 import AccountIcon from '../Common/AccountIcon'; // Placeholder for Account Icon component
 import CartIcon from '../Common/CartIcon'; // Placeholder for Cart Icon component
 import './Nav.css'
+import { GiBookmarklet } from "react-icons/gi";
 
 const Nav = () => {
   const location = useLocation();
@@ -13,7 +14,10 @@ const Nav = () => {
   return (
 <>
     <nav className="navigation">
+      <div className='cont-logo'>
+        <GiBookmarklet className=" text-5xl text-primary book-icon" />              
         <a className="logo" href="/">BookNest</a>
+        </div>
 
         <div className="nav-items-container">
           <ul className="nav-items">
@@ -37,14 +41,14 @@ const Nav = () => {
           </ul>
         </div>
 
-        <div className="search-bar-container">
+        {/* <div className="search-bar-container">
           <div className="search-bar">
             <svg className="search-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
             </svg>
             <input type="text" className="search-input" placeholder="Search" />
           </div>
-        </div>
+        </div> */}
 
       <div className="action-buttons">
         <ul className="action-items">

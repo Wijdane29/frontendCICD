@@ -1,6 +1,11 @@
 .main-container{
     display: block;
 }
+.book-icon{
+width: 35px;
+height: 35px;
+
+}
 .navigation {
     display: flex;
     align-items: center;
@@ -16,6 +21,12 @@
   .logo-container {
     display: flex;
     align-items: center;
+    
+  }
+  .cont-logo{
+    display: flex;
+
+    
   }
   
   .logo {
@@ -23,6 +34,8 @@
     font-weight: bold;
     color: black;
     text-decoration: none;
+    margin-left: 5px;
+
   }
   
   /* Navigation Items */
