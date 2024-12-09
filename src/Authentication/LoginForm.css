@@ -10,7 +10,9 @@
   min-height: 100vh;
   background: url(../assets/background.jpeg) center/cover no-repeat;
 }
-
+button{
+  justify-content: center;
+}
 .wrapper {
   width: 100%;
   max-width: 400px;
