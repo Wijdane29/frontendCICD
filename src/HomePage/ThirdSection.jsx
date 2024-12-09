@@ -23,7 +23,7 @@ const ProductsData = [
     img: Img3,
     title: "The dark side",
     rating: 4.5,
-    author: "John Doe",
+    author: "David Brazier",
     aosDelay: "200",
   },
   {
@@ -31,7 +31,7 @@ const ProductsData = [
     img: Img2,
     title: "Leave me behind",
     rating: 4.7,
-    author: "John Doe",
+    author: "K M Moronova",
     aosDelay: "400",
   },
   {
@@ -39,7 +39,7 @@ const ProductsData = [
     img: Img4,
     title: "The conjurer's wife",
     rating: 4.4,
-    author: "John Doe",
+    author: "Sarah Penner",
     aosDelay: "600",
   },
   {
@@ -47,7 +47,7 @@ const ProductsData = [
     img: Img6,
     title: "Secrets of greatness",
     rating: 4.5,
-    author: "John Doe",
+    author: "Adam Yannotta",
     aosDelay: "800",
   },
   {
@@ -55,7 +55,7 @@ const ProductsData = [
     img: Img5,
     title: "Angel of death",
     rating: 4.5,
-    author: "John Doe",
+    author: "Jack Higgins",
     aosDelay: "800",
   },
 ];

@@ -1,7 +1,8 @@
 import React from "react";
-import Img1 from "../assets/itendswithus.jpeg";
-import Img2 from "../assets/SOUL.jfif";
-import Img3 from "../assets/THe_dark_Side.jpg";
+import Img1 from "../assets/The Lives of Lee Miller.jpg";
+import Img2 from "../assets/81AyWv0PEUL._SY522_.jpg";
+import Img3 from "../assets/81Qc4D55jOL._SY522_.jpg";
+import Img4 from "../assets/51p0ZIviSmL._SY445_SX342_.jpg";
 import { FaStar } from "react-icons/fa";
 import "./SecondSection.css";
 
@@ -9,31 +10,32 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Mystery Novel",
+    title: "The lives of Lee Miller",
     description:
       "Dive into an intriguing mystery that will keep you guessing until the final page.",
   },
   {
     id: 2,
     img: Img2,
-    title: "Science Fiction",
+    title: "Destined Shadows",
     description:
       "Explore futuristic worlds and imaginative technologies in this thrilling sci-fi adventure.",
   },
   {
     id: 3,
     img: Img3,
-    title: "Romantic Story",
+    title: "Consort of Fire",
     description:
       "A heartwarming tale of love and resilience that will capture your emotions.",
   },
   {
-    id: 1,
-    img: Img1,
-    title: "Mystery Novel",
+    id: 4,
+    img: Img4,
+    title: "The Housemaid's Wedding",
     description:
       "Dive into an intriguing mystery that will keep you guessing until the final page.",
   },
+  
 ];
 
 const SecondSection = () => {

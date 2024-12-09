@@ -1,6 +1,6 @@
 
 import React from "react";
-import BannerImg from "../assets/THe_dark_Side.jpg";
+import BannerImg from "../assets/background.jpeg";
 import { GrSecure } from "react-icons/gr";
 import { IoBookOutline } from "react-icons/io5";
 import { GiBookmarklet } from "react-icons/gi";
