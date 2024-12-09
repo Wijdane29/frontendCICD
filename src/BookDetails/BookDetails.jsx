@@ -106,8 +106,13 @@ function BookDetails() {
             <Header/>
             <div className="details-page">
             <div className="details-container">
+                {/* Left Column: Image Section */}
                 <div className="details-image-section">
-                   
+                    <div className="image-thumbnails">
+                            <img src={src} alt={name} className="thumbnail-image" />
+                            <img src={src} alt={name} className="thumbnail-image" />
+                            <img src={src} alt={name} className="thumbnail-image" />
+                    </div>
                     <div className="main-image-container">
                         <img src={selectedImage} alt={name} className="main-image" />
                     </div>

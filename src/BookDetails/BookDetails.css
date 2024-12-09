@@ -131,6 +131,7 @@
 
 .add-to-cart-button:hover {
     background-color: #555;
+    color: #fff;
 }
 
 .cart-icon {

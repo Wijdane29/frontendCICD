@@ -67,7 +67,7 @@
   .delete-button {
     background-color: transparent;
     color: white;
-    padding: 8px;
+    /* padding: 8px; */
     border: none;
     cursor: pointer;
   }
@@ -112,7 +112,7 @@
 }
 .subtotal span{
     padding-left: 166px;
-    color: #697565;
+    color: #000;
     font-weight: 900;
 }
 .container-cards{

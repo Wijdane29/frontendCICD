@@ -63,11 +63,12 @@ const Cart = () => {
   
       if (response.ok) {
         setCartItems(cartItems.filter((item) => item.CartID !== productId));
+        alert('the book successfully deleted');
       } else {
-        console.error('Failed to delete item from cart');
+        console.error('Failed to delete book from cart');
       }
     } catch (error) {
-      console.error('Error deleting item from cart:', error);
+      console.error('Error deleting book from cart:', error);
     }
   };
 
