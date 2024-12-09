@@ -18,35 +18,36 @@ import Book7 from '../assets/7.jpeg';
 import Book8 from '../assets/8.jpeg';
 import Book9 from '../assets/9.jpeg';
 import Book10 from '../assets/10.jpeg';
-import Book11 from '../assets/10.jpeg';
-import Book12 from '../assets/10.jpeg';
-import Book13 from '../assets/10.jpeg';
-import Book14 from '../assets/10.jpeg';
-import Book15 from '../assets/10.jpeg';
-import Book16 from '../assets/10.jpeg';
-import Book17 from '../assets/10.jpeg';
-import Book18 from '../assets/10.jpeg';
-import Book19 from '../assets/10.jpeg';
-import Book21 from '../assets/10.jpeg';
-import Book22 from '../assets/10.jpeg';
-import Book23 from '../assets/10.jpeg';
-import Book24 from '../assets/10.jpeg';
-import Book25 from '../assets/10.jpeg';
-import Book26 from '../assets/10.jpeg';
-import Book27 from '../assets/10.jpeg';
-import Book28 from '../assets/10.jpeg';
-import Book29 from '../assets/10.jpeg';
-import Book30 from '../assets/10.jpeg';
-import Book31 from '../assets/10.jpeg';
-import Book32 from '../assets/10.jpeg';
-import Book33 from '../assets/10.jpeg';
-import Book34 from '../assets/10.jpeg';
-import Book35 from '../assets/10.jpeg';
-import Book36 from '../assets/10.jpeg';
-import Book37 from '../assets/10.jpeg';
-import Book38 from '../assets/10.jpeg';
-import Book39 from '../assets/10.jpeg';
-import Book40 from '../assets/10.jpeg';
+import Book11 from '../assets/11.jpeg';
+import Book42 from '../assets/The Lives of Lee Miller.jpg';
+import Book12 from '../assets/12.jpeg';
+import Book13 from '../assets/13.jpeg';
+import Book14 from '../assets/14.jpeg';
+import Book15 from '../assets/15.jpeg';
+import Book16 from '../assets/16.jpeg';
+import Book17 from '../assets/17.jpeg';
+import Book18 from '../assets/18.jpeg';
+import Book19 from '../assets/19.jpeg';
+import Book21 from '../assets/21.jpeg';
+import Book22 from '../assets/22.jpeg';
+import Book23 from '../assets/23.jpeg';
+import Book24 from '../assets/24.jpeg';
+import Book25 from '../assets/25.jpeg';
+import Book26 from '../assets/26.jpeg';
+import Book27 from '../assets/27.jpeg';
+import Book28 from '../assets/28.jpeg';
+import Book29 from '../assets/29.jpeg';
+import Book30 from '../assets/30.jpeg';
+import Book31 from '../assets/31.jpeg';
+import Book32 from '../assets/32.jpeg';
+import Book33 from '../assets/33.jpeg';
+import Book34 from '../assets/34.jpeg';
+import Book35 from '../assets/35.jpeg';
+import Book36 from '../assets/36.jpeg';
+import Book37 from '../assets/37.jpeg';
+import Book38 from '../assets/38.jpeg';
+import Book39 from '../assets/39.jpeg';
+import Book40 from '../assets/40.jpeg';
 
 import TheLivesofLeeMillerPdf from '../../public/The Lives of Lee Miller.pdf';
 
@@ -92,7 +93,7 @@ const bookAssets = {
         '38.jpeg': Book38,
         '39.jpeg': Book39,
         '40.jpeg': Book40,
-        'The Lives of Lee Miller.jpg': Book11,
+        'The Lives of Lee Miller.jpg': Book42,
 
         
     },
@@ -121,7 +122,6 @@ function Books() {
                 setLoading(false);
             }
         };
-
         fetchBooks();
     }, []);
 

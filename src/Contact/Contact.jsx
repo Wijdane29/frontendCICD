@@ -36,7 +36,7 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <button type="submit">
+            <button type="submit" className='login-btn'>
               Send Message <FaPaperPlane className="icon" />
             </button>
           </form>
