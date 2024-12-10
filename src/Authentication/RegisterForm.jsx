@@ -31,7 +31,7 @@ const RegisterForm = () => {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                userName: userName, // Send userName instead
+                userName: userName, 
                 Email: email,
                 Password: password,
             }),

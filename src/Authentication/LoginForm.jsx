@@ -25,10 +25,7 @@ const LoginForm = () => {
       const data = await response.json();
   
       if (response.status === 200) {
-        // Successful login, store user data in localStorage
-        localStorage.setItem('user', JSON.stringify(data.user)); // Save user data
-  
-        // Redirect to HomePage
+        localStorage.setItem('user', JSON.stringify(data.user)); 
         navigate('/HomePage');
       } else {
         // Error message from Lambda
